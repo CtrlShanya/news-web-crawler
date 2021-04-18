@@ -1,6 +1,6 @@
 # Web Crawler for News (SPIEGEL.de)
 
-This is a web crawler that is used to develop a news-database from the SPIEGEL International website: [https://www.spiegel.de/international/](https://www.spiegel.de/international/)
+This is a web crawler that is used to build a news-database from the SPIEGEL International website: [https://www.spiegel.de/international/](https://www.spiegel.de/international/)
 
 ## Motivation
 
