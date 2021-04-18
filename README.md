@@ -63,5 +63,10 @@ This is to stop the program as per the user's wishes. So to stop the program, pl
 2)  To view the contents of the table `test1` run the following on the Command Prompt: (Output)
     `python Database.py`
 
+### Note: 
 
+For machines with both Python3 and Python2.7 installed, to run the code files, the command might have to be run as shown on the `Command Prompt`:
+
+1) For Crawler: `python3 Crawler.py`
+2) For Database: `python3 Database.py`
 
