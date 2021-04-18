@@ -38,6 +38,12 @@ These entries are stored in a SQLite database with the following data format:
   
   The rest of the code will work just as before after updating the URL.
 
+• This crawler automatically run every 15 minutes, till the user stops the code when prompted to continue.
+
+This program while running, may ask the user the following:
+      `Do you want to continue (enter 'y' or 'n'):`
+This is to stop the program as per the user's wishes. So to stop the program, please enter: `n` and to keep the program running, please enter: `y`.
+
 # Installation:
 
 1)	Download the zip folder from git clicking on `Code` as shown:
@@ -53,11 +59,6 @@ These entries are stored in a SQLite database with the following data format:
 
 1)  Then run the `Crawler.py` file to start the crawler as shown: (Input)
     `python Crawler.py`
-
-    This program while running, may ask the user the following:
-      `Do you want to continue (enter 'y' or 'n'):`
-
-    This is to stop the program as per the user's wishes. So to stop the program, please enter: `n` and to     keep the program running, please enter: `y`.
 
 2)  To view the contents of the table `test1` run the following on the Command Prompt: (Output)
     `python Database.py`
